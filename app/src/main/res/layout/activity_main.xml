@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/ChipGroup_main"
+            app:singleLine="true"
+            app:singleSelection="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:checkable="true"
+                android:id="@+id/chip_android"
+                app:chipIcon="@drawable/android"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:checkable="true"
+
+                android:id="@+id/chip_web"
+                app:chipIcon="@drawable/web"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Web Site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:checkable="true"
+                android:id="@+id/chip_Python"
+                app:chipIcon="@drawable/ai"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Python"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:checkable="true"
+                android:id="@+id/chip_php"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="PHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:checkable="true"
+                android:id="@+id/chip_java"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="java"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:checkable="true"
+                android:id="@+id/chip_JS"
+                app:chipIcon="@drawable/ai"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="JS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </HorizontalScrollView>
+
+
+
+
+
+
+</LinearLayout>
